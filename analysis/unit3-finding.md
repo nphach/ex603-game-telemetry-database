@@ -1,0 +1,3 @@
+In the dashboard, I counted 19 sessions under 10 minutes. That only includes sessions with a timestamp of when the player left. There are 200 total sessions, but 34 of them never recorded this timestamp. All of these sessions are from when a player abandons the match or gets disconnecting. I would count sessions with a missing leave time as having a duration of 0 minutes, so the actual number of sessions under 10 minutes then becomes 53.
+
+19 out of 200 makes these short rounds look uncommon. In actuality, with the abandoned sessions included it's 53 out of 200, which is closer to a quarter of all sessions. I think the dashboard count should be redone from 53. Leaving it at 19 treats those abandoned rounds as if they never happened.
