@@ -29,6 +29,23 @@ This application records information from an online game. In the game, the playe
 
 ### Query Catalogue
 
+#### Unit 4 — [`queries/unit4/q4_1.sql`](queries/unit4/q4_1.sql)
+
+| #   | Business question                                                                                                            |
+| --- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 1   | What are the basic score metrics across all match-participant events, and how many distinct players appear?                  |
+| 2   | For each match, how many match-participant events were recorded and what was the average score (busiest matches first)?      |
+| 3   | Which matches have enough match-participant events for their failure rate to mean anything? (minimum 10 events per producer) |
+| 4   | How do event volume and average score differ by match server region and participation status together?                       |
+
+#### Unit 4 — [`queries/unit4/q4_2.sql`](queries/unit4/q4_2.sql)
+
+| Part | Business question                                                                                                      |
+| ---- | ---------------------------------------------------------------------------------------------------------------------- |
+| A    | For each match, how many match-participant events occurred and how many counted as failures (contested or abandoned)?  |
+| B    | What are failure totals and rates by match server region, and for the whole platform, without listing every event row? |
+| C    | Among matches with enough events, what combined failure rate should leadership use as the comparison baseline?         |
+
 ### Technical Highlights
 
 ### What I Would Do Differently
